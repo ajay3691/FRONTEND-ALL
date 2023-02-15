@@ -1,0 +1,31 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form onsubmit="return validate()">
+        <label for="">User Name</label>
+        <input type="text" id="userName"/> <br />
+        <input type="submit" />
+    </form>
+</body>
+<script>
+  /*   function validate() {
+    alert( document.getElementById("userName"))
+    } */
+
+    function validate() {
+        let tag_ref = document.getElementById("userName")
+        console.log(tag_ref)
+        let name = document.getElementById("userName").value
+        console.log(name)
+
+        if (name == ""){
+            alert ("Please Enter User Name")
+        } 
+        return false
+    }
+</script>
+
+</html>
