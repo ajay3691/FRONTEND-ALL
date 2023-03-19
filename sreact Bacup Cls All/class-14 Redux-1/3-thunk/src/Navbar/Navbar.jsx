@@ -4,11 +4,11 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-                <Link to="/index" className="navbar-brand"> React - useRef example </Link>
+                <Link to="/index" className="navbar-brand"> React - Redux and Thunk</Link>
                 <div className="ml-auto">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to="/register" className="nav-link">UseRef Ex</Link>
+                            <Link to="/reg" className="nav-link">User Data from Redux Store</Link>
                         </li>
 
 

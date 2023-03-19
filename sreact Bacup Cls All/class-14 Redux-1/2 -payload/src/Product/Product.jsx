@@ -22,6 +22,7 @@ const Product = () => {
         <div>
             <div className="container">
                 <div className="row">
+                    <pre>{JSON.stringify(product)}</pre>
                     <div className="col-md-6">
                         <table className='table table-hover mt-5'>
                             <thead className='bg-primary text-white'>
